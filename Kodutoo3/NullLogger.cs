@@ -1,0 +1,9 @@
+﻿namespace Kodutoo3;
+
+public class NullLogger
+{
+    public void WriteDebug(string message) { }
+    public void WriteInfo(string message) { }
+    public void WriteWarning(string message) { }
+    public void WriteError(string message) { }
+}
